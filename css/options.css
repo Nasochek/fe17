@@ -1,0 +1,178 @@
+/*Обнуление*/
+* {
+   padding: 0;
+   margin: 0;
+   border: 0;
+}
+*,
+*:before,
+*:after {
+   -moz-box-sizing: border-box;
+   -webkit-box-sizing: border-box;
+   box-sizing: border-box;
+}
+:focus,
+:active {
+   outline: none;
+}
+a:focus,
+a:active {
+   outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+   display: block;
+}
+
+html,
+body {
+   height: 100%;
+   width: 100%;
+   font-size: 100%;
+   line-height: 1;
+   font-size: 14px;
+   -ms-text-size-adjust: 100%;
+   -moz-text-size-adjust: 100%;
+   -webkit-text-size-adjust: 100%;
+}
+input,
+button,
+textarea {
+   font-family: inherit;
+}
+
+input::-ms-clear {
+   display: none;
+}
+button {
+   cursor: pointer;
+}
+button::-moz-focus-inner {
+   padding: 0;
+   border: 0;
+}
+a,
+a:visited {
+   text-decoration: none;
+}
+a:hover {
+   text-decoration: none;
+}
+ul li {
+   list-style: none;
+}
+img {
+   vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+   font-size: inherit;
+   font-weight: 400;
+}
+/*--------------------*/
+.options {
+   padding: 80px 0 80px 0;
+   background-color: #e5e5e5;
+   font-family: "Open Sans", sans-serif;
+}
+.container-options {
+   max-width: 1170px;
+   margin: auto;
+   text-align: center;
+
+   font-size: 14px;
+   padding: 15px;
+}
+.content-top {
+}
+.content-top-title {
+   font-style: regular;
+   font-size: 36px;
+   сolor: #212121;
+   font-family: "Raleway", sans-serif;
+   text-transform: uppercase;
+}
+.content-top-title:after {
+   content: " ";
+   display: block;
+   height: 2px;
+   background: #d98943;
+   width: 64px;
+   margin: 25px auto 30px;
+}
+
+/*.content-top-line {
+   border-bottom: 2px solid #d98943;
+   width: 64px;
+   margin: auto;
+   margin-bottom: 30px;
+}*/
+.content-top-discription {
+   font-style: regular;
+   color: #86878b;
+   margin: 0 0 63px 0;
+}
+.pricing-wrapper {
+   display: flex;
+   justify-content: space-around;
+   margin: 0 -15px;
+   margin: auto;
+   text-align: center;
+}
+ul {
+   margin: 0 15px;
+   width: 340px;
+}
+.pricing-wrapper li:first-child {
+   background-color: rgba(51, 51, 51, 1);
+   line-height: 50px;
+
+   font-size: 20px;
+   font-weight: 700;
+   color: #ffffff;
+   margin-bottom: 2px;
+}
+.pricing-wrapper li:nth-child(2) {
+   background-color: rgba(51, 51, 51, 1);
+   line-height: 100px;
+   font-family: "Raleway", sans-serif;
+   font-size: 35px;
+   font-weight: 700;
+   color: #ffffff;
+   margin-bottom: 2px;
+}
+.pricing-wrapper li:nth-child(3) {
+   background-color: rgba(51, 51, 51, 1);
+   line-height: 50px;
+   font-size: 14px;
+   font-weight: 600;
+   color: rgba(255, 255, 255, 0.5);
+   margin-bottom: 4px;
+}
+.price-item2 li:nth-child(3) {
+   background-color: #d98943;
+   line-height: 50px;
+   font-size: 14px;
+   font-weight: 600;
+   color: rgba(255, 255, 255, 0.5);
+   margin-bottom: 4px;
+}
+.pricing-wrapper li {
+   background-color: #ffffff;
+   line-height: 40px;
+   font-size: 14px;
+   font-weight: 400;
+   color: #86878b;
+   margin-bottom: 4px;
+}
+.pricing-wrapper li:last-child {
+   margin-bottom: 0;
+}
